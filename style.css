@@ -3,17 +3,46 @@ body {
  font-family: 'Raleway', sans-serif;
   color: #0D0A0B;
 }
+
 img {
-  width: 400px;
-  border-radius: 35px;
+  width: 500px;
+  border-radius: 20px;
 }
 
 ul {
   list-style-type: none;
+  display: inline-block;
 }
 
-body{
+.card {
   box-shadow: 0px 6px rgba(166, 161, 94, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px;
+  background-color: #F3EFF5;
+  text-align: center;
+}
+
+.card-1{
+  box-shadow: 0px 6px rgba(166, 161, 94, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px;
+  background-color: #F3EFF5;
+  text-align: center;
+}
+
+.card-2{
+  box-shadow: 0px 6px rgba(166, 161, 94, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px;
+  background-color: #F3EFF5;
+  text-align: center;
+}
+
+.card-3{
+box-shadow: 0px 6px rgba(166, 161, 94, 0.1);
   border-radius: 10px;
   padding: 20px;
   margin: 30px;
@@ -23,13 +52,6 @@ body{
 
 .sm-icon{
   font-size: 35px
-}
-
-.list-inline{
-  display: inline-block;
-  padding: 0px 20px;
-  list-style: none;
-  padding-left: 0px;
 }
 
 @media (max-width: 960px) {
